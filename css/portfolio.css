@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+
+.background-black {
+    height: 100vh;
+    background: #000;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-info {
+    text-align: center;
+}
+
+.background-black .my-info h2 a {
+    font-size: 30px;
+    color:#fff; 
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3px;
+}
+
+.my-info h1 {
+    font-size: 60px;
+    color:#fff; 
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+.my-image {
+    height: 100vh;
+    background: url('../images/szafranski.PNG');
+    width: 50%;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    
+    
+}
+
+.background-white {
+    font-size: 30px;
+    color:#000; 
+    background: #fff;
+
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    
+}
