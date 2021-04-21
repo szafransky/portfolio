@@ -290,3 +290,34 @@ a {
    
 }
 
+
+@media (max-width: 600px) {
+    .about-me .skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill {
+        margin-bottom: 10px;
+    }
+
+    .background-white .divided {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+    
+    .my-image {
+        height: 500px;
+        flex: none;
+        background-size: cover;
+        width: 90%;
+        margin-top: 40px;
+    }
+
+}
+
