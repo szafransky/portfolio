@@ -128,6 +128,7 @@ a {
     color: white;
     background: black;
     font-size: 20px;
+    margin-bottom: 30px;
 
 }
 .skill:hover {
@@ -295,6 +296,10 @@ a {
     .about-me .skills {
         display: flex;
         flex-direction: column;
+    }
+
+    .about-me {
+        padding-right: 20px;
     }
 
     .skill {
