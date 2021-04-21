@@ -295,7 +295,7 @@ a {
 @media (max-width: 600px) {
     .about-me .skills {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .about-me {
@@ -355,6 +355,31 @@ a {
         font-family: 'Montserrat', sans-serif;
         margin-bottom: 10px;
     }
+
+    .project {
+        flex-direction: column;
+        height: 80%;
+        
+    }
+    .project .project-description {
+        flex: none;
+        font-size: 15px;
+      
+    }
+
+    .project .project-description p{
+        font-size: 15px;
+      
+    }
+
+    .project.project .project-image {
+        flex: none;
+        height: 320px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+    }
+        
 
 }
 
