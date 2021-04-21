@@ -6,10 +6,41 @@ body {
     background: #000;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 .background-black {
-    height: 100vh;
+    min-height: 100vh;
     background: #000;
+
+}
+
+.background-black.navigation {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.background-black.navigation .nav {
+    font-size: 20px;
+    color:#fff; 
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    margin: 0 20px 0 20px;
+}
+
+.background-black.navigation .nav h2{
+   
+    margin: 20px 40px 20px 40px;
+    cursor: pointer;
 }
 
 .wrapper {
@@ -56,6 +87,206 @@ body {
     background: #fff;
 
     font-family: 'Montserrat', sans-serif;
-    height: 100vh;
+    min-height: 100vh;
+    
     
 }
+
+.background-white h1 {
+    font-weight: lighter;
+}
+
+.background-white .divided {
+    display: flex;
+   
+}
+
+.about-me {
+    flex: 1;
+    /* text-align: center; */
+    padding-left: 40px; 
+}
+
+.about-me p {
+    font-size: 25px;
+    line-height: 1.5em;
+    text-align: left;
+   
+
+}
+
+.about-me .skills {
+    display: flex;
+}
+
+.skill {
+    
+    border: 1px solid black;
+    padding: 4px 15px;
+    border-radius: 20px;
+    margin-right: 20px;
+    color: white;
+    background: black;
+    font-size: 20px;
+
+}
+.skill:hover {
+    
+   
+    color: black;
+    background: white;
+    cursor: pointer;
+
+}
+
+.about-me h2 {
+    
+    text-align: left;
+    
+
+}
+
+.my-image {
+    flex: 1;
+   
+}
+
+.background-black .projects h2 {
+    font-size: 45px;
+    color:#fff; 
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.projects {
+    min-height: 100vh;
+    padding-top: 70px;
+    /* background: url("../images/szafranski.PNG"); */
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.project {
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid white; */
+    margin-top: 50px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.082);
+    border-radius: 20px;
+    display: flex;
+    cursor: pointer;
+    
+}
+
+.project:hover {
+    box-shadow: 0px 0px 14px -2px rgb(255 255 255 / 75%);
+}
+
+.project .project-image1 {
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: url("../images/Screen\ Shot\ 2021-04-21\ at\ 7.30.42\ PM.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.project.project .project-image2 {
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: url("../images/cookbook.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.project.project .project-image3 {
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: url("../images/simongame.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.project.project .project-image4 {
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: url("../images/meble.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.project.project .project-image5 {
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: url("../images/blog.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.project.project .project-image6 {
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: url("../images/oddamwdobrerece.png");
+    background-position: right;
+    background-size: cover;
+    
+}
+
+.project.project .project-image7 {
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: url("../images/fitme.png");
+    background-position: top;
+    background-size: cover;
+    
+}
+.project .project-image:hover {
+   
+    
+}
+
+.project .project-description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.project .project-description h1{
+    font-size: 30px;
+    color:#fff; 
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 70px;
+    text-align: center;
+}
+.project .project-description p{
+    font-size: 20px;
+    color:#fff; 
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+   line-height: 2rem;
+    margin: 30px;
+   
+}
+
