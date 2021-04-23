@@ -34,7 +34,7 @@ a {
     position: absolute;
     bottom: 0px;
     width: 100vw;
-    margin: 0 20px 0 20px;
+    /* padding: 0 20px 0 20px; */
 }
 
 .background-black.navigation .nav h2{
@@ -334,12 +334,12 @@ a {
         position: absolute;
         top: 0px;
         width: 100vw;
-        /* margin: 0 20px 0 20px; */
+        /* padding: 0 20px 0 20px; */
     }
     
     .background-black.navigation .nav h2{
        
-        margin: 10px 20px 20px 10px;
+        margin: 10px 20px 10px 20px;
         cursor: pointer;
     }
 
