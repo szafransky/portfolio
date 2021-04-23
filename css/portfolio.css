@@ -319,7 +319,7 @@ a {
     .my-image {
         height: 500px;
         flex: none;
-        background-size: cover;
+        background-size: contain;
         width: 90%;
         margin-top: 40px;
     }
@@ -379,7 +379,7 @@ a {
     .project.project .project-image {
         flex: none;
         height: 320px;
-        background-size: contain;
+        background-size: cover;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 0;
