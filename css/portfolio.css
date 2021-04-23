@@ -359,6 +359,7 @@ a {
     .project {
         flex-direction: column;
         height: 80%;
+        width: 91%;
         
     }
     .project .project-description {
@@ -369,12 +370,16 @@ a {
 
     .project .project-description p{
         font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+      
       
     }
 
     .project.project .project-image {
         flex: none;
         height: 320px;
+        background-size: contain;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 0;
